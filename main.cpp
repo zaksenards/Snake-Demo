@@ -145,7 +145,7 @@ int randint(int max)
 
 int main(int argc, char* argv[])
 {
-    InitWindow(800, 600, "Snake");
+    InitWindow(WINDOW_WIDTH, WINDOW_HEIGHT WINDOW_TITLE);
     SetTargetFPS(15);
 
     Player player({400, 300});
